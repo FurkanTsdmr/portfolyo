@@ -62,6 +62,87 @@
         </div>
      </section>
 
+    <!-- 
+     root{}:CSS değişkenlerini birden fazla yerde / tekrar eden
+     yerleri merkezi nktada birleştirir.
+     --bg-color,--second-bg-color,... --
+
+     clip-path:polyn(20% 15% 80% 15% 100% 70% 0 70%)
+     20% 15%:ÜST SOL KÖŞE
+     80-15 : ÜST SAĞ KÖŞE
+     100-70: ALT SAĞ KÖŞE
+     0 - 70 : ALT SOL KÖŞE
+
+     display:inline-flex;
+     inline:eleman,diğer inline etiketlerle yan yana gelir.
+     flex:kendisini container ol. görüp, alt elemanlarına müdahaleye 
+     imkan sağlıyor.
+
+     rem ve px:
+     px:ekran çözünürlüğü ve boyutu ile işiklidir. ekranın fiziksel
+     pix. boyutuna göre davranır.
+     
+     rem:kök(root) elementinin yazı tipi boyutunu bizlere veririr.
+     1rem -> 16px
+     2rem -> 32px
+
+     border-radius: 30% 70% 53% 47% / 26% 46% 54% 74;
+     İLK grup(Köşe Yarıçapları):üst sol,üst sağ,alt sağ,alt sol
+     İkinci Grup(Elips Şeklinde Border Radius)
+
+      -->
+     <!-- ABOUTH START -->
+
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/profile.png" alt="profile.img">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span class="about-span">Me</span> </h2>
+            <h3>Frontend Developer</h3>
+            <p> 
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo ducimus, illum numquam voluptas magni doloremque reprehenderit, recusandae suscipit minus pariatur iusto? Sunt distinctio dicta dolore architecto est illo voluptas dolores.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo ducimus, illum numquam voluptas magni doloremque repreh
+                </span>
+         </p>
+         <a href="#" class="about-btn">More About Me</a>
+         
+        </div>
+     </section>
+     <!-- ABOUTH END -->
+<!-- SERVICES START -->
+<section class="services" id="services">
+<h2 class="heading">Our <span class="services-span">Services</span> </h2>
+<div class="services-container">
+    <div class="services-box">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Web Design</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur itaque velit vero ab sequi assumenda error facere natus nulla provident. 
+            Sequi quia laboriosam ipsa nam facilis ab, hic recusandae voluptas!</p>
+        <a href="#" class="services-btn">Read More</a>
+    </div>
+    <div class="services-box">
+         <i class="fa-solid fa-code"></i>
+         <h3>Web Development</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas dolore labore doloribus optio eos ea, corrupti magnam dignissimos velit?</p>
+         <a href="#" class="services-btn">Read More</a>
+    </div>
+    <div class="services-box">
+        <i class="fa-solid fa-mobile"></i>
+        <h3>Responsive Desing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint perspiciatis perferendis at facilis numquam! Impedit, suscipit! Delectus laborum rem dolor?</p>
+        <a href="#" class="services-btn">Read More</a>
+    </div>
+    
+</div>
+</section>
+<!-- SERVICES END -->
+
+
+
 
 
 
